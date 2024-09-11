@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #003366;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .whats-new {
+            background-color: #1f2b4d;
+            color: #fff;
+        }
+
+        .whats-new h5 {
+            color: #e30513;
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section-title {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .testimonial h5 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer a {
+            color: #e30513;
+        }
+
+        .faculty-image {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .newsletter {
+            background-color: #e30513;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">VESIT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Academics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Infrastructure</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- What's New Section -->
+            <div class="col-md-3 whats-new p-4">
+                <h5>What's New</h5>
+                <ul class="list-unstyled">
+                    <li><span class="badge badge-danger">NEW</span> Holiday Notice on account of Gopalkala 2024</li>
+                    <li><span class="badge badge-danger">NEW</span> NOTICE FOR REVALUATION & PHOTOCOPY OF UNIVERSITY KT HELD IN MAY-JUNE-2024</li>
+                    <li><span class="badge badge-danger">NEW</span> Approved Ph.D. Guide's (Teacher Recognition) at VESIT</li>
+                    <li><span class="badge badge-danger">NEW</span> NOTICE FOR REVALUATION OF SPECIAL EXAM HELD IN JULY 2024</li>
+                </ul>
+            </div>
+
+            <!-- Featured Image or Slider -->
+            <div class="col-md-9 p-0">
+                <img src="header.png" class="main-image" alt="College Image">
+                <!-- You can use a Bootstrap carousel instead of a static image -->
+            </div>
+        </div>
+
+        <!-- Announcements, Achievements, Collaborations -->
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <div class="section-title">Announcements</div>
+                <p>Parent-Teacher Meeting</p>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">News & Events</div>
+                <p>Congrats to Top Scorers!</p>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Media/Videos</div>
+                <p>VESIT Ruby Jubilee Celebrations</p>
+            </div>
+        </div>
+
+        <!-- Achievements and Principal's Message Section -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="principal.png" class="img-fluid rounded" alt="Principal">
+                <p>
+                    The long-held idiom “reaching for the moon” was a dream realized as India’s Chandrayaan 3 landed on the south pole of the lunar surface at 6:03 pm on August 23, 2023...
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h2>56</h2>
+                        <p>Years Of Excellence</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>26</h2>
+                        <p>Professional Institutions</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>25K</h2>
+                        <p>Brilliant Minds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h3 class="text-center">What Our Students Say</h3>
+                <div class="row">
+                    <div class="col-md-4 p-3">
+                        <div class="testimonial">
+                            <p>"VESIT has been a life-changing experience. The faculty and the opportunities provided are unmatched."</p>
+                            <h5>Jane Doe</h5>
+                            <p>Computer Science, Class of 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="testimonial">
+                            <p>"I am grateful for the education and the vibrant culture at VESIT. It has helped me grow both professionally and personally."</p>
+                            <h5>John Smith</h5>
+                            <p>Electronics, Class of 2022</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="testimonial">
+                            <p>"The campus life and the community here have been absolutely fantastic. I will cherish these memories forever."</p>
+                            <h5>Emily Johnson</h5>
+                            <p>Mechanical, Class of 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <div class="newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <p>Stay updated with the latest news, events, and announcements from VESIT.</p>
+                    <form class="form-inline justify-content-center">
+                        <input type="email" class="form-control mr-2" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-light">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 VESIT. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
